@@ -12,6 +12,10 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .sd-container-special {
   width: 60%;
   margin: 0 auto;
@@ -34,7 +38,7 @@ header {
   height: 3px;
 }
 
-.jumbotron .horizontal-bar {
+.jumbotron .horizontal-bar, .about .horizontal-bar {
   background-color: #ffffff;
 }
 

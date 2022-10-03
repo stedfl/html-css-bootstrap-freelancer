@@ -85,6 +85,13 @@ header {
 }
 
 footer {
-  background-color: #3a546d;
   color: white;
+}
+
+.footer-top {
+  background-color: #3a546d;
+}
+
+.footer-bottom {
+  background-color: #2c3e50;
 }

@@ -1,3 +1,13 @@
+[class^="container"], [class^="col"] {
+    border: 1px solid black;
+}
+
+.sd-container-principal {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
 header {
     height: 90px;
     background-color: #2c3e50;

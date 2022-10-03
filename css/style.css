@@ -18,10 +18,15 @@ header {
     color: white;
 }
 
-.jambotron {
-    height: 490px;
+.jumbotron {
     background-color: #1abc9c;
     color: white;
+}
+
+.horizontal-bar {
+    background-color: #ffffff;
+    width: 20px;
+    height: 3px;
 }
 
 .portfolio {

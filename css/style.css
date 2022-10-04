@@ -53,7 +53,8 @@ i.sd-icon-hamburger {
   font-size: 2rem;
 }
 
-.hyphen.icon::after {
+.hyphen.icon::after, 
+.hyphen.icon::before {
   content: "";
   display: inline-block;
   margin-left: 10px;
@@ -63,17 +64,6 @@ i.sd-icon-hamburger {
   background-color: white;
   border-radius: 10px;
 }
-
-.hyphen.icon::before {
-  content: "";
-  display: inline-block;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  width: 100px;
-  height: 4px;
-  background-color: white;
-  border-radius: 10px;
-} 
 
 .star {
   margin: 15px 0;
@@ -93,13 +83,17 @@ section {
   background-color: #ffffff;
 }
 
-.portfolio .hyphen.icon::after {
-  background-color: black; 
+.sd-container-special .hyphen.icon::after,
+.sd-container-special .hyphen.icon::before{
+  width: 80px;
 }
 
-.portfolio .hyphen.icon::before {
+.portfolio .hyphen.icon::before,
+.contactme .hyphen.icon::before,
+.portfolio .hyphen.icon::after,
+.contactme .hyphen.icon::after {
   background-color: black; 
-} 
+}
 
 .portfolio .album .col {
   margin-bottom: 30px;
@@ -139,13 +133,27 @@ section {
   background-color: #ffffff;
 }
 
-.contactme p::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 1px;
-  background-color: gray;
+.sd-form .form-control {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
 }
+
+.sd-area > .form-control, .form-floating > .form-control-plaintext, .form-floating > .form-select {
+  height: 180px;
+}
+
+.sd-submit {
+  margin-top: 20px;
+  background-color: #1abc9c;
+  color: white;
+}
+
+.sd-submit:hover {
+  background-color: #1abc9c;
+  color: white;
+}
+
 
 /* FOOTER*/
 footer {

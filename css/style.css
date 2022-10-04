@@ -7,14 +7,22 @@
   padding-top: 30px;
   padding-bottom: 30px;
 } */
-.sd-navbar, i.sd-icon-hamburger {
+
+/* NAVBAR */
+.sd-navbar {
   color: white;
 }
 
-.sd-hamburger {
-  border-color: white;
+i.sd-icon-hamburger {
+  color: #6e7378;
+  font-size: 1.5rem;
 }
 
+
+.sd-hamburger {
+  border-color: white;
+  padding: 0.5rem 0.8rem;
+}
 
 .sd-container-special {
   width: 60%;
@@ -30,32 +38,49 @@ header {
 .jumbotron {
   background-color: #1abc9c;
   color: white;
-  height: 490px;
+}
+
+.jumbotron .row.image {
+  height: 65%;
+}
+
+.jumbotron .row img {
+  height: 270px;
 }
 
 .jumbotron .icon {
-  color: black;
+  color: white;
 }
 
-.hyphen .icon::after {
+.hyphen.icon::after {
   content: "";
-  display: inline-block;
+  display: block;
+  width: 20px;
+  height: 3px;
+  background-color: white;
+}
+
+.hyphen.icon::before {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 20px;
+  height: 3px;
+  background-color: white;
+} 
+
+
+
+/* .bar {
   width: 20px;
   height: 3px;
   background-color: black;
-}
 
-.hyphen .icon::before {
-  content: "";
-  display: inline-block;
-  width: 20px;
-  height: 3px;
-  background-color: black;
-}
+} */
 
 
 
-.jumbotron .hyphen, .about .hyphen {
+.about .hyphen {
   background-color: #ffffff;
 }
 

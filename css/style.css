@@ -1,32 +1,6 @@
-/* [class^="container"],
+[class^="container"],
 [class^="col"] {
   border: 1px solid black;
-} */
-
-/* [class^="container"] {
-  padding-top: 30px;
-  padding-bottom: 30px;
-} */
-
-/* NAVBAR */
-.sd-navbar {
-  color: white;
-}
-
-i.sd-icon-hamburger {
-  color: #6e7378;
-  font-size: 1.5rem;
-}
-
-
-.sd-hamburger {
-  border-color: white;
-  padding: 0.5rem 0.8rem;
-}
-
-.sd-container-special {
-  width: 60%;
-  margin: 0 auto;
 }
 
 
@@ -35,6 +9,27 @@ header {
   background-color: #2c3e50;
 }
 
+/* NAVBAR */
+.sd-navbar {
+  color: white;
+}
+
+.sd-nav-container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+i.sd-icon-hamburger {
+  color: #6e7378;
+  font-size: 1.5rem;
+}
+
+.sd-hamburger {
+  border-color: white;
+  padding: 0.5rem 0.8rem;
+}
+
+/* JUMBOTRON */
 .jumbotron {
   background-color: #1abc9c;
   color: white;
@@ -52,44 +47,66 @@ header {
   color: white;
 }
 
+.icon {
+  font-size: 2rem;
+}
+
 .hyphen.icon::after {
   content: "";
-  display: block;
-  width: 20px;
-  height: 3px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 4px;
   background-color: white;
+  border-radius: 10px;
 }
 
 .hyphen.icon::before {
   content: "";
-  display: block;
-  margin: 0 auto;
-  width: 20px;
-  height: 3px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 4px;
   background-color: white;
+  border-radius: 10px;
 } 
 
+.jumbo-list {
+  font-size: 1rem;
+}
 
+.jumbotron .row:not(.jumbotron .row:first-child) {
 
-/* .bar {
-  width: 20px;
-  height: 3px;
-  background-color: black;
+  padding-bottom: 1rem;
+}
 
-} */
+/* PORTFOLIO */
+.portfolio {
+  background-color: #ffffff;
+}
 
+.portfolio .hyphen.icon::after {
+  background-color: black; 
+}
 
+.portfolio .hyphen.icon::before {
+  background-color: black; 
+} 
 
+.portfolio .album .col {
+  margin-bottom: 30px;
+}
+
+/* ABOUT */
 .about .hyphen {
   background-color: #ffffff;
 }
 
-.portfolio .hyphen, .contactme .hyphen {
-  background-color: black;
-}
-
-.portfolio {
-  background-color: #ffffff;
+.sd-container-special {
+  width: 60%;
+  margin: 0 auto;
 }
 
 .about {
@@ -97,6 +114,7 @@ header {
   color: white;
 }
 
+/* CONTACTME */
 .contactme {
   background-color: #ffffff;
 }
@@ -109,6 +127,7 @@ header {
   background-color: gray;
 }
 
+/* FOOTER*/
 footer {
   color: white;
 }

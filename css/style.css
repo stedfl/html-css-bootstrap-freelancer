@@ -55,9 +55,8 @@ i.sd-icon-hamburger {
 .hyphen.icon::before {
   content: "";
   display: inline-block;
-  margin-left: 10px;
   margin-bottom: 10px;
-  width: 100px;
+  width: 30%;
   height: 4px;
   background-color: white;
   border-radius: 10px;
@@ -79,11 +78,6 @@ section {
 /* PORTFOLIO */
 .portfolio {
   background-color: #ffffff;
-}
-
-.sd-container-special .hyphen.icon::after,
-.sd-container-special .hyphen.icon::before{
-  width: 80px;
 }
 
 .portfolio .hyphen.icon::before,
